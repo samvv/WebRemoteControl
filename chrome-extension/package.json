@@ -1,0 +1,24 @@
+{
+  "name": "@samvv/reflex-chrome-extension",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Chrome extension for controlling your browser with a remote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome",
+    "browser",
+    "extension",
+    "remote-control",
+    "iot",
+    "networking"
+  ],
+  "author": "Sam Vervaeck",
+  "license": "MIT",
+  "devDependencies": {
+    "chrome-types": "^0.1.190",
+    "typescript": "^5.0.4"
+  }
+}

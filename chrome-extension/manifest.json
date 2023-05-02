@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Remote Control",
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "description": "Let another device control your browser using this Chrome extension",
+  "author": "samvv@pm.me"
+}
