@@ -5,6 +5,7 @@
   "description": "The Chrome extension for controlling your browser with a remote",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack watch --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,7 +19,13 @@
   "author": "Sam Vervaeck",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "babel-loader": "^9.1.2",
     "chrome-types": "^0.1.190",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
   }
 }
